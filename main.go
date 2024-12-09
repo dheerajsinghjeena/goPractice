@@ -10,5 +10,5 @@ func main() {
 
 	// goPractice.BitwiseOperators()
 
-	goPractice.FunctionUse()
+	goPractice.Anonymous()
 }
