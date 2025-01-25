@@ -64,3 +64,8 @@ func FunctionUse() {
 	fmt.Println("first passing three values: ")
 	callVariadicFunc(12, 3, 4, 23, 3)
 }
+
+func PrintSum() int {
+	var num1, num2 int = 12, 12
+	return AddNum(num1, num2)
+}

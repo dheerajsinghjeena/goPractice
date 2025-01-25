@@ -10,5 +10,6 @@ func main() {
 
 	// goPractice.BitwiseOperators()
 
-	goPractice.DeferKeyword()
+	result := goPractice.PrintSum()
+	fmt.Println(result)
 }
