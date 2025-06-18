@@ -1,15 +1,8 @@
 package main
 
-import (
-	"fmt"
-	"newSetupGo/goPractice"
-)
+import "newSetupGo/goStrings"
 
 func main() {
-	fmt.Println("Main file is running")
-
-	// goPractice.BitwiseOperators()
-
-	result := goPractice.PrintSum()
-	fmt.Println(result)
+	// Basic of strings
+	goStrings.BasicOfStrings()
 }
