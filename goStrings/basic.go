@@ -9,11 +9,13 @@ import "fmt"
 
 // in go string are immutable
 func BasicOfStrings() {
-	var myString string = "dheeraj is good boy"
+	var myString string = `dheeraj is good boy`
 
 	for index, char := range myString {
-		result := fmt.Sprintf("%c is my string and it's index is %d\n", char, index)
-		fmt.Printf(result)
+		result := fmt.Sprintf(`%c is my string and it's index is %d\n`, char, index)
+		fmt.Println(result)
 	}
 
+	// find the length of a string
+	fmt.Printf("length of string is %d", len(myString))
 }
