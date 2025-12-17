@@ -1,1 +1,1 @@
-go language advanced learning start here now hell world
+go language advanced learning start here now
