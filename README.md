@@ -1,1 +1,1 @@
-go language advanced learning start here now hello world
+go language advanced learning start here now
